@@ -1,6 +1,6 @@
-streamlit>=1.32.0
-pandas>=2.2
-numpy>=1.26
+streamlit
+pandas
+numpy
 scikit-learn==1.6.1
 catboost>=1.2.8
 joblib
