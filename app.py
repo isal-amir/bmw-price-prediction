@@ -3,7 +3,7 @@ from predict import predict_price
 
 st.title('🚗 BMW Car Price Predictor')
 
-st.write('Predict the resale pricec of a BMW car using a Machine Learning Model')
+st.write('Predict the resale price of a BMW car using a Machine Learning Model')
 
 # ====== SIDEBAR =====
 st.sidebar.header('Model Info')
