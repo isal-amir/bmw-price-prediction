@@ -1,10 +1,17 @@
 import streamlit as st
 from predict import predict_price
 
-st.title(' BMW Car Price Predictor')
+st.title('🚗 BMW Car Price Predictor')
 
 st.write('Predict the resale pricec of a BMW car using a Machine Learning Model')
 
+# ====== SIDEBAR =====
+st.sidebar.header('Model Info')
+st.sidebar.write('Model: CatBoostRegressor')
+st.sidebar.write('Dataset: BMW Car Sales & Price Dataset')
+st.sidebar.write('Framework: Scikit-learn Pipeline')
+st.sidebar.markdown('[GitHub Repository](https://github.com/isal-amir/bmw-price-prediction/)')
+st.sidebar.markdown('[Notebook](https://www.kaggle.com/code/faisalamir/analysis-modelling-and-business-insight)')
 
 # ===== INPUT =====
 
